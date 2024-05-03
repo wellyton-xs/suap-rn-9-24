@@ -1,0 +1,8 @@
+{
+  "*.ts": [
+    "git add .",
+    "yarn eslint 'src/**' --fix",
+    "yarn prettier --check 'src/**'",
+    "yarn test:staged"
+  ]
+}
